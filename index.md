@@ -1,5 +1,3 @@
-## Notes to myself
-
 ### Reset root password on RHEL 8
 
 `rd break`
