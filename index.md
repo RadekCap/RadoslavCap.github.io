@@ -1,3 +1,25 @@
+### LVM
+
+#### Prepare
+`parted -set NUMBER lvm on`
+
+`pvcreate ...`
+
+`vgcreate ...`
+
+`lgcreate ...`
+
+`mkfs.xfs /dev/.../lv`
+
+#### Manage
+
+`vgextend vg_name /dev/...`
+
+`lvextend ...`
+
+`xfs_growfs /mnt_point`
+
+
 ### Reset root password on RHEL 8
 
 `rd break`
